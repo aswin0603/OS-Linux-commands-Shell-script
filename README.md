@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5df38ecd-e6b2-4426-87b0-35fd20c976ab)# OS-Linux-commands-Shell-scripting
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -178,59 +178,71 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/297f4a10-a773-4d68-a61d-30f267ed754b)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e9fb91bd-09f6-4591-bafd-96b04cb46036)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/12606f1c-5586-4b20-8a73-4022d791a162)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/735869a2-d368-4f72-a81e-f07a081145b2)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/824bca34-5746-49c8-9047-2434dd3142b5)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/fcddb999-460b-4e3f-b2f1-610a6f63815f)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/71757669-4dfb-4986-81e7-8b224343eef6)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/439db497-db26-4e84-9e2d-dcb82b48b69c)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e08a6139-23c2-4577-8144-40b0ca7434c5)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b09f4481-cead-4048-aa9c-e92e6f6a1213)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d6102661-1f7d-4fb1-95d7-2a5bb72f9b61)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/46030cf7-7d98-4190-aca0-245ca8e07d57)
 
 
 cat > file23
