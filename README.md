@@ -261,21 +261,25 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/87966132-562b-4d12-ab33-dc16eaad76ec)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/7ad251ce-0862-4b3d-aa07-34b9f9a690ae)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d9b4a194-f191-420f-8315-8fe04ad14f28)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/94dae61f-eb6f-4592-8b6b-20874578c84d)
 
 
 
