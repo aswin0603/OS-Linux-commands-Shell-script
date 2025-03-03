@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image](https://github.com/user-attachments/assets/5df38ecd-e6b2-4426-87b0-35fd20c976ab)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -42,23 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/c73d91cb-ff7b-4e23-bd1a-17a926e33f42)
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/a6e6dc29-bdff-4295-90d5-96b050179ea6)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/user-attachments/assets/55f0accc-6e09-4015-bfb4-b3aac6da2553)
+
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/b50c2052-210e-42c5-8325-80e35b9b64bb)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d49b29d4-0463-4be8-a9b9-3b761081a837)
 
 
 #Filters
@@ -82,17 +87,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/4f4cc4ea-5711-4528-b5d0-2c7cabed16bb)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/5ee3761a-7f9b-46f7-89fb-bec3651f0ec4)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/467fcfb8-0679-4072-a842-b4dc5ea4fbc0)
 
 
 cat < newfile 
@@ -107,28 +115,33 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/ebb32df9-7b1b-4600-b24d-c06333c3820d)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e038565f-1cd3-439b-ad3f-bc69ff8224ae)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/6ed43b02-9e31-428c-9c7a-bd4c1d7e8d0e)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9c9368d2-376b-4c14-8eb8-08104ff630b2)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9581849c-6daa-480f-b2d6-5163102ff729)
 
 
 
@@ -140,6 +153,8 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/0aeaae4f-fbec-45bf-9486-6ea9d0435f8d)
+
 
 
 cat < newfile 
