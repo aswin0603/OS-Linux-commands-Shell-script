@@ -268,81 +268,94 @@ cat > file23
 ```
 
 
-sed -n -e '3p' file23
+### 28. sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/fd318f84-09c2-4821-be8a-1c8d5dd25844)
 
 
 
-sed -n -e '$p' file23
+### 29. sed -n -e '$p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/db5d83ba-b7f0-46e9-9e78-c6198abedae6)
 
 
 
-sed  -e 's/Ram/Sita/' file23
+### 30. sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/89f2b6f2-a017-4eab-a31a-e0365dc43890)
 
 
 
-sed  -e '2s/Ram/Sita/' file23
+### 31. sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f0ca9460-3b8b-4b51-a19f-689436cc7bf5)
 
 
 
-sed  '/tom/s/5000/6000/' file23
+### 32. sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/76235b07-eaee-465b-bba8-08ef28447b4a)
 
 
 
-sed -n -e '1,5p' file23
+### 33. sed -n -e '1,5p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/46df2d92-bcda-4a5f-8a08-898626be17cb)
 
 
 
-sed -n -e '2,/Joe/p' file23
+
+### 34. sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/ab02e15d-3883-4874-8036-be7b6d7b8be3)
 
 
 
 
-sed -n -e '/tom/,/Joe/p' file23
+### 35. sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/6d6e3458-a51c-46af-b100-3c137ab2c100)
 
 
 
-seq 10 
+### 36. seq 10 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/911cb8f0-5f1b-4137-b76f-e09802129fa3)
 
 
 
-seq 10 | sed -n '4,6p'
+### 37. seq 10 | sed -n '4,6p'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/8181e2c7-70ca-4aa0-a107-40df3871bbdb)
 
 
 
-seq 10 | sed -n '2,~4p'
+### 38. seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/30b38f71-03b3-4ce8-8ec1-8b58d3629742)
 
 
 
-seq 3 | sed '2a hello'
+### 39. seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/29759d91-123c-4d9f-894a-9d8401759bf0)
 
 
 
-seq 2 | sed '2i hello'
+### 40. seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e0bd26a3-cb2f-42d4-b722-bd0fa8c1b621)
 
 
-seq 10 | sed '2,9c hello'
+### 41. seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d7d0b29c-d238-47af-8a8d-7536da82e015)
 
 
-sed -n '2,4{s/^/$/;p}' file23
+### 42. sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b6063a05-8971-4fdd-8302-db9fe0f86e51)
 
-
-
-sed -n '2,4{s/$/*/;p}' file23
 
 
 #Sorting File content
@@ -354,8 +367,11 @@ cat > file21
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
 ``` 
-sort file21
+
+### 43. sort file21
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3d80105e-4bf7-441a-abf2-c61d7f0f5970)
+
 
 
 cat > file22
@@ -367,40 +383,47 @@ cat > file22
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
 ``` 
-uniq file22
+
+### 44. uniq file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/52893b1e-40a3-4280-9bcb-93bafc480488)
 
 
 
-#Using tr command
+## Using tr command
+### 45. cat file23 | tr [:lower:] [:upper:]
+## OUTPUT
+![image](https://github.com/user-attachments/assets/9fdb7a17-fc07-4163-b907-7105607f3fc8)
 
-cat file23 | tr [:lower:] [:upper:]
- ## OUTPUT
 
-cat < urllist.txt
+
+cat > urllist.txt
 ```
 www. yahoo. com
 www. google. com
 www. mrcet.... com
 ^d
  ```
-cat > urllist.txt
+cat < urllist.txt
 ```
 www. yahoo. com
 www. google. com
 www. mrcet.... com
  ```
-cat urllist.txt | tr -d ' '
- ## OUTPUT
+
+### 46. cat urllist.txt | tr -d ' '
+## OUTPUT
+![image](https://github.com/user-attachments/assets/607c7b65-bb31-4916-80a7-2e0b8f75e3aa)
 
 
  
-cat urllist.txt | tr -d ' ' | tr -s '.'
+### 47. cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e0d32da5-3132-4155-83d5-8df5e6692cea)
 
 
 
-#Backup commands
+## Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
