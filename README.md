@@ -610,6 +610,8 @@ fi
  ```
 ### 70. ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b0424c73-fc7f-4c39-8eda-a3d8ef01e8d5)
+
 
 # check if with file location
 ### 71. cat>ifnested.sh 
@@ -656,6 +658,8 @@ fi
 
 ### 73. ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b70c3f3c-e1dd-4665-a850-17014612badc)
+
 
 
 
@@ -697,9 +701,11 @@ fi
 ```
 
 ### 76. $ chmod 755 iftest.sh
- 
 ### 77. $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/user-attachments/assets/b64d5ac4-f2eb-4913-a9fb-33c4806fc6c4)
+
+
 
 # check if a file
 ### 78. cat > ifnested.sh 
@@ -746,9 +752,10 @@ fi
 ```
 
 ### 80. $ chmod 755 ifnested.sh
- 
-$ ./ifnested.sh 
-##OUTPUT
+### 81. $ ./ifnested.sh 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/4fd17371-d229-4fdd-a92e-baf093b10e8e)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -773,10 +780,10 @@ echo "Sorry, you are not allowed here"
 fi
 ```
 
-$ chmod 755 elifcheck.sh
- 
-$ ./elifcheck.sh 
+### 82. $ chmod 755 elifcheck.sh 
+### 83. $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1b94a959-9615-40cf-814e-462b1b54411d)
 
 
 # testing compound comparisons
