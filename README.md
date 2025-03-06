@@ -424,28 +424,36 @@ www. mrcet.... com
 
 
 ## Backup commands
-tar -cvf backup.tar *
+### 48. tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f4739643-f585-4161-ab97-71ddfa437e39)
 
 
 mkdir backupdir
  
 mv backup.tar backupdir
  
-tar -tvf backup.tar
+### 49. tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d2dcda7c-5a68-41ee-a8fe-126e6c2d03f7)
 
 
-tar -xvf backup.tar
+### 50. tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/98450a3a-d6ff-40f9-aa85-41bf1fcdb67b)
 
-gzip backup.tar
 
-ls .gz
+### 51. gzip backup.tar
+
+### 52. ls .gz
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/5f7c4fe5-bd97-4fe7-b4b7-2b419b500034)
+
  
-gunzip backup.tar.gz
+### 53. gunzip backup.tar.gz
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/06c4c989-cdcf-4bc2-b370-bc4e2c3f56be)
+
 
  
 # Shell Script
@@ -453,9 +461,11 @@ gunzip backup.tar.gz
 echo '#!/bin/sh' > my-script.sh
 echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
-chmod 755 my-script.sh
-./my-script.sh
+### 54. chmod 755 my-script.sh
+### 55. ./my-script.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1b6a41ef-df5f-48ee-81fb-cf822ff9a845)
+
 
  
 cat << stop > herecheck.txt
@@ -466,8 +476,9 @@ for this non stop movement
 stop
 ```
 
-cat herecheck.txt
+### 56. cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2b5249ba-f929-4791-997c-17a6a751daa9)
 
 
 cat < scriptest.sh 
@@ -486,7 +497,7 @@ ps
 ^d
  ```
 
-cat scriptest.sh 
+### 57. cat scriptest.sh 
 ```bash
 \#!/bin/sh
 echo “File name is $0 ”
@@ -501,28 +512,36 @@ echo 'The $$ is ' $$
 ps
 ```
  
-chmod 777 scriptest.sh
+### 58. chmod 777 scriptest.sh
  
-./scriptest.sh 1 2 3
+### 59. ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c73da6d6-20d2-4324-8683-9514252e939a)
 
  
-ls file1
+### 60. ls file1
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c39e30a9-6afa-4c43-a46d-3b4db4d218db)
 
-echo $?
+
+### 61. echo $?
 ## OUTPUT 
-./one
+![image](https://github.com/user-attachments/assets/03baf16c-dbcd-4ece-8133-0b7eddfe0e63)
+
+
+### 62. ./one
 bash: ./one: Permission denied
  
-echo $?
+### 63. echo $?
 ## OUTPUT 
- 
+![image](https://github.com/user-attachments/assets/0b2c047f-a5b8-44d9-a539-7730c9c208f5)
+
+
 abcd
  
-echo $?
- ## OUTPUT
+### 64. echo $?
+## OUTPUT
 
 
  
@@ -542,7 +561,7 @@ fi
 ^d
 ```
 
-cat strcomp.sh 
+### 65. cat strcomp.sh 
 ```bash
 \#!/bin/bash
 val1=baseball
@@ -554,18 +573,20 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
-
-
-chmod 755 strcomp.sh
- 
-./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/de681a2b-9b32-4c15-b6d5-2f3258d7cce3)
+
+
+
+### 66. chmod 755 strcomp.sh
+### 67. ./strcomp.sh 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/09caca1a-e822-40ba-b886-421b97627c36)
+
 
 
 # check file ownership
-cat < psswdperm.sh 
+### 68. cat < psswdperm.sh 
 ```bash
 \#!/bin/bash
 if [ -O /etc/passwd ]
@@ -577,7 +598,7 @@ fi
 ^d
 ```
 
-cat psswdperm.sh 
+### 69. cat psswdperm.sh 
 ```bash
 /#!/bin/bash
 if [ -O /etc/passwd ]
@@ -587,11 +608,11 @@ else
 echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
-./psswdperm.sh
+### 70. ./psswdperm.sh
 ## OUTPUT
 
 # check if with file location
-cat>ifnested.sh 
+### 71. cat>ifnested.sh 
 ```bash
 \#!/bin/bash
 if [ -e $HOME ]
@@ -612,7 +633,7 @@ echo “Sorry, the object does not exist”
 fi
 ^d
 ```
-cat ifnested.sh 
+### 72. cat ifnested.sh 
 ```
 \#!/bin/bash
 if [ -e $HOME ]
@@ -633,13 +654,13 @@ echo “Sorry, the object does not exist”
 fi
 ```
 
-./ifnested.sh 
+### 73. ./ifnested.sh 
 ## OUTPUT
 
 
 
 # using numeric test comparisons
-cat > iftest.sh 
+### 74. cat > iftest.sh 
 ```bash
 \#!/bin/bash
 val1=10
@@ -658,7 +679,7 @@ fi
 ```
 
 
-cat iftest.sh 
+### 75. cat iftest.sh 
 ```bash
 \#!/bin/bash
 val1=10
@@ -675,13 +696,13 @@ echo “The values are different”
 fi
 ```
 
-$ chmod 755 iftest.sh
+### 76. $ chmod 755 iftest.sh
  
-$ ./iftest.sh 
+### 77. $ ./iftest.sh 
 ##OUTPUT
 
 # check if a file
-cat > ifnested.sh 
+### 78. cat > ifnested.sh 
 ```bash
 \#!/bin/bash
 if [ -e $HOME ]
@@ -703,7 +724,7 @@ fi
 ^d
 ```
 
-cat ifnested.sh 
+### 79. cat ifnested.sh 
 ```bash
 \#!/bin/bash
 if [ -e $HOME ]
@@ -724,7 +745,7 @@ echo “Sorry, the object does not exist”
 fi
 ```
 
-$ chmod 755 ifnested.sh
+### 80. $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
