@@ -800,6 +800,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/de7f48fb-5544-424d-b6f9-8eca6009b2da)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -817,9 +819,11 @@ echo "Sorry, you are not allowed here";;
 esac
 ```
 $ chmod 755 casecheck.sh 
- 
 $ ./casecheck.sh 
- 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/4a29e773-ad68-470b-b346-addd7c2f0c12)
+
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -832,8 +836,10 @@ var1=$[ $var1 - 1 ]
 done
 ```
 $ chmod 755 whiletest.sh
- 
 $ ./whiletest.sh
+## OUTPUT
+![image](https://github.com/user-attachments/assets/6a8a414a-4778-4458-8445-536dadb0ae92)
+
  
  
 cat untiltest.sh 
@@ -885,8 +891,11 @@ echo “word:$test”
 done
 ```
 $ chmod 755 forin2.sh
- 
 $ ./forin2.sh 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/e43b2663-180f-4eac-bc63-1330be14dba5)
+
+
  
 cat forin3.sh 
 ```bash
@@ -909,8 +918,11 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
-
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/26602087-573b-4b38-9069-342b10774d21)
+
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -931,9 +943,6 @@ Adilabad
 Bhadrachalam
 Khammam
 
-## OUTPUT
-
-
 cat forctype.sh 
 ```bash
 #!/bin/bash
@@ -946,6 +955,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/06da8066-2126-4101-a153-83d9198dc1f8)
+
+
 
 cat forctype1.sh 
 ```bash
@@ -959,6 +971,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/12172fe5-25ba-4fab-b085-ec3f7ce8c36d)
+
 
 cat fornested1.sh 
 ```bash
@@ -974,9 +988,10 @@ done
 done
 ```
 $ chmod 755 fornested1.sh
- 
 $ ./fornested1.sh 
  ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/9c2d8263-726c-42c6-926e-41a517184449)
+
 
  
 cat forbreak.sh 
@@ -993,11 +1008,13 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
- 
 $ ./forbreak.sh 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/d9ff2c3c-a121-4e91-b00a-64cb9c014519)
+
+
  
 cat forbreak.sh 
 ```bash
@@ -1016,9 +1033,11 @@ echo "The for loop is completed“
 
  
 $ chmod 755 forcontinue.sh
- 
 $ ./forcontinue.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2c1e484b-b000-49f6-aeba-9d4560aa6080)
+
+
  
 cat exread.sh 
 ```bash
@@ -1030,9 +1049,11 @@ echo "Hello $name, welcome to my program. "
  ```
  
 $ chmod 755 exread.sh 
- 
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d501415b-8a20-46ef-8f44-6d4a7fd58098)
+
+
 
 
  cat exread1.sh
@@ -1043,12 +1064,13 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
 $ ./exread1.sh 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/77afa9fc-27b7-448b-8a51-ecb01e39814c)
+
+
+
+
  
 cat funcex.sh
 ```bash
