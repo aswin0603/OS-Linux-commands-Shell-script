@@ -1087,11 +1087,10 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
- ./funcex.sh 
+## OUTPUT 
+./funcex.sh 1 2
+![image](https://github.com/user-attachments/assets/ed9f42a3-6d97-4217-90dc-cd275470f266)
 
- 
- ./funcex.sh 1 2
 
  
 cat argshift.sh
@@ -1103,9 +1102,12 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![image](https://github.com/user-attachments/assets/fbc14ffd-2f1c-4980-a070-2615e6ddbbc1)
+
+
+
  
  cat argshift1.sh
 ```bash
@@ -1120,9 +1122,7 @@ for (( i=0;i<$ELEMENTS;i++)); do
     echo ${args[${i}]} 
 done
 ```
-$ chmod 777 argshift.sh
-## OUTPUT
-$ ./argshift.sh 1 2 3
+
  
 cat argshift.sh
 ```bash
@@ -1135,7 +1135,9 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
+./argshift.sh 1 2 3
+![image](https://github.com/user-attachments/assets/fa0fcc99-4561-450e-b207-2797d5c45729)
+
  
  
 cat > nc.awk
@@ -1167,6 +1169,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/d9a6c056-5226-4f4a-99ae-6fa603d29110)
+
+
  
 cat > palindrome.sh
 ```bash
@@ -1194,6 +1199,8 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/e85798e0-067c-4607-98b1-52421b1eb916)
+
 
 
 # RESULT:
